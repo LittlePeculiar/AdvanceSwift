@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var selected = tabs[0]
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Spacer()
+            CustomTabBarView(
+                viewModel: CustomTabBarViewModel(tabs: tabs),
+                selection: $selected)
         }
-        .padding()
     }
 }
 

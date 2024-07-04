@@ -11,6 +11,39 @@
 		A098BEC12C35E91300D4AC16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098BEC02C35E91300D4AC16 /* ContentView.swift */; };
 		A098BEC32C35E91600D4AC16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A098BEC22C35E91600D4AC16 /* Assets.xcassets */; };
 		A098BEC62C35E91600D4AC16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A098BEC52C35E91600D4AC16 /* Preview Assets.xcassets */; };
+		A098BECE2C35E95B00D4AC16 /* ViewModifierBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098BECD2C35E95B00D4AC16 /* ViewModifierBootcamp.swift */; };
+		A098BED12C35EF8D00D4AC16 /* ButtonViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098BED02C35EF8D00D4AC16 /* ButtonViewModifier.swift */; };
+		A098BED42C35F09800D4AC16 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098BED32C35F09800D4AC16 /* View+Ext.swift */; };
+		A098BED62C35F30700D4AC16 /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098BED52C35F30700D4AC16 /* ButtonStyleBootcamp.swift */; };
+		A098BED92C35F40000D4AC16 /* PressableButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098BED82C35F40000D4AC16 /* PressableButtonStyle.swift */; };
+		A0C56D4E2C3602BF00642904 /* AnyTransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D4D2C3602BF00642904 /* AnyTransitionBootcamp.swift */; };
+		A0C56D502C36044800642904 /* RotateViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D4F2C36044800642904 /* RotateViewModifier.swift */; };
+		A0C56D522C3604DD00642904 /* AnyTransition+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D512C3604DD00642904 /* AnyTransition+Ext.swift */; };
+		A0C56D542C3608A100642904 /* MatchedGeoEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D532C3608A100642904 /* MatchedGeoEffectBootcamp.swift */; };
+		A0C56D562C360B0300642904 /* MatchedGeoEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D552C360B0300642904 /* MatchedGeoEffect.swift */; };
+		A0C56D582C360E7B00642904 /* CustomShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D572C360E7B00642904 /* CustomShapesBootcamp.swift */; };
+		A0C56D5A2C361E7800642904 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D592C361E7800642904 /* Triangle.swift */; };
+		A0C56D5C2C36218D00642904 /* Diamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D5B2C36218D00642904 /* Diamond.swift */; };
+		A0C56D5E2C36232A00642904 /* Trapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D5D2C36232A00642904 /* Trapezoid.swift */; };
+		A0C56D602C3627DE00642904 /* CustomCurvesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D5F2C3627DE00642904 /* CustomCurvesBootcamp.swift */; };
+		A0C56D622C36280400642904 /* Arcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D612C36280400642904 /* Arcs.swift */; };
+		A0C56D642C362B2B00642904 /* QuadCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D632C362B2B00642904 /* QuadCurves.swift */; };
+		A0C56D662C36308500642904 /* AnimateableDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D652C36308500642904 /* AnimateableDataBootcamp.swift */; };
+		A0C56D682C36325A00642904 /* RectangleWithSingleCornerAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D672C36325A00642904 /* RectangleWithSingleCornerAnimation.swift */; };
+		A0C56D6A2C36350A00642904 /* PacManAnimated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D692C36350A00642904 /* PacManAnimated.swift */; };
+		A0C56D6C2C36380D00642904 /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D6B2C36380D00642904 /* GenericsBootcamp.swift */; };
+		A0C56D6F2C36385600642904 /* GenericsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D6E2C36385600642904 /* GenericsViewModel.swift */; };
+		A0C56D712C363A7800642904 /* GenericModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D702C363A7800642904 /* GenericModel.swift */; };
+		A0C56D742C36428100642904 /* ViewBuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D732C36428100642904 /* ViewBuilderBootcamp.swift */; };
+		A0C56D762C36438300642904 /* HeaderViewRegular.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D752C36438300642904 /* HeaderViewRegular.swift */; };
+		A0C56D782C36465700642904 /* HeaderViewGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D772C36465700642904 /* HeaderViewGeneric.swift */; };
+		A0C56D7A2C364D2400642904 /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D792C364D2400642904 /* PreferenceKeyBootcamp.swift */; };
+		A0C56D7D2C3653FC00642904 /* GeoPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D7C2C3653FC00642904 /* GeoPreferenceKeyBootcamp.swift */; };
+		A0C56D7F2C3707D100642904 /* ScrollViewOffsetPrefKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D7E2C3707D100642904 /* ScrollViewOffsetPrefKeyBootcamp.swift */; };
+		A0C56D822C37130300642904 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D812C37130300642904 /* AppTabBarView.swift */; };
+		A0C56D842C3716EC00642904 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D832C3716EC00642904 /* CustomTabBarView.swift */; };
+		A0C56D862C3718FA00642904 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D852C3718FA00642904 /* TabBarItem.swift */; };
+		A0C56D882C371E5F00642904 /* CustomTabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C56D872C371E5F00642904 /* CustomTabBarViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +52,39 @@
 		A098BEC02C35E91300D4AC16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A098BEC22C35E91600D4AC16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A098BEC52C35E91600D4AC16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A098BECD2C35E95B00D4AC16 /* ViewModifierBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcamp.swift; sourceTree = "<group>"; };
+		A098BED02C35EF8D00D4AC16 /* ButtonViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewModifier.swift; sourceTree = "<group>"; };
+		A098BED32C35F09800D4AC16 /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		A098BED52C35F30700D4AC16 /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
+		A098BED82C35F40000D4AC16 /* PressableButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressableButtonStyle.swift; sourceTree = "<group>"; };
+		A0C56D4D2C3602BF00642904 /* AnyTransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionBootcamp.swift; sourceTree = "<group>"; };
+		A0C56D4F2C36044800642904 /* RotateViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateViewModifier.swift; sourceTree = "<group>"; };
+		A0C56D512C3604DD00642904 /* AnyTransition+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyTransition+Ext.swift"; sourceTree = "<group>"; };
+		A0C56D532C3608A100642904 /* MatchedGeoEffectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeoEffectBootcamp.swift; sourceTree = "<group>"; };
+		A0C56D552C360B0300642904 /* MatchedGeoEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeoEffect.swift; sourceTree = "<group>"; };
+		A0C56D572C360E7B00642904 /* CustomShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesBootcamp.swift; sourceTree = "<group>"; };
+		A0C56D592C361E7800642904 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		A0C56D5B2C36218D00642904 /* Diamond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diamond.swift; sourceTree = "<group>"; };
+		A0C56D5D2C36232A00642904 /* Trapezoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trapezoid.swift; sourceTree = "<group>"; };
+		A0C56D5F2C3627DE00642904 /* CustomCurvesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesBootcamp.swift; sourceTree = "<group>"; };
+		A0C56D612C36280400642904 /* Arcs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arcs.swift; sourceTree = "<group>"; };
+		A0C56D632C362B2B00642904 /* QuadCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadCurves.swift; sourceTree = "<group>"; };
+		A0C56D652C36308500642904 /* AnimateableDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateableDataBootcamp.swift; sourceTree = "<group>"; };
+		A0C56D672C36325A00642904 /* RectangleWithSingleCornerAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleWithSingleCornerAnimation.swift; sourceTree = "<group>"; };
+		A0C56D692C36350A00642904 /* PacManAnimated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacManAnimated.swift; sourceTree = "<group>"; };
+		A0C56D6B2C36380D00642904 /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
+		A0C56D6E2C36385600642904 /* GenericsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsViewModel.swift; sourceTree = "<group>"; };
+		A0C56D702C363A7800642904 /* GenericModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericModel.swift; sourceTree = "<group>"; };
+		A0C56D732C36428100642904 /* ViewBuilderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderBootcamp.swift; sourceTree = "<group>"; };
+		A0C56D752C36438300642904 /* HeaderViewRegular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewRegular.swift; sourceTree = "<group>"; };
+		A0C56D772C36465700642904 /* HeaderViewGeneric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewGeneric.swift; sourceTree = "<group>"; };
+		A0C56D792C364D2400642904 /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		A0C56D7C2C3653FC00642904 /* GeoPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		A0C56D7E2C3707D100642904 /* ScrollViewOffsetPrefKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPrefKeyBootcamp.swift; sourceTree = "<group>"; };
+		A0C56D812C37130300642904 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
+		A0C56D832C3716EC00642904 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		A0C56D852C3718FA00642904 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		A0C56D872C371E5F00642904 /* CustomTabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +117,16 @@
 		A098BEBD2C35E91300D4AC16 /* AdvanceSwift */ = {
 			isa = PBXGroup;
 			children = (
-				A098BEBE2C35E91300D4AC16 /* AdvanceSwiftApp.swift */,
 				A098BEC02C35E91300D4AC16 /* ContentView.swift */,
+				A098BEBE2C35E91300D4AC16 /* AdvanceSwiftApp.swift */,
+				A0C56D802C37127400642904 /* CustomTabBar */,
+				A0C56D722C36420600642904 /* ViewBuilder */,
+				A0C56D6D2C36382A00642904 /* Generics */,
+				A0C56D7B2C36537C00642904 /* PreferenceKey */,
+				A098BED72C35F3E200D4AC16 /* Custom */,
+				A098BED22C35F08700D4AC16 /* Extensions */,
+				A098BECF2C35EF6F00D4AC16 /* Modifiers */,
+				A098BECC2C35E93900D4AC16 /* Views */,
 				A098BEC22C35E91600D4AC16 /* Assets.xcassets */,
 				A098BEC42C35E91600D4AC16 /* Preview Content */,
 			);
@@ -65,6 +139,95 @@
 				A098BEC52C35E91600D4AC16 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A098BECC2C35E93900D4AC16 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A098BECD2C35E95B00D4AC16 /* ViewModifierBootcamp.swift */,
+				A098BED52C35F30700D4AC16 /* ButtonStyleBootcamp.swift */,
+				A0C56D4D2C3602BF00642904 /* AnyTransitionBootcamp.swift */,
+				A0C56D532C3608A100642904 /* MatchedGeoEffectBootcamp.swift */,
+				A0C56D552C360B0300642904 /* MatchedGeoEffect.swift */,
+				A0C56D572C360E7B00642904 /* CustomShapesBootcamp.swift */,
+				A0C56D5F2C3627DE00642904 /* CustomCurvesBootcamp.swift */,
+				A0C56D652C36308500642904 /* AnimateableDataBootcamp.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A098BECF2C35EF6F00D4AC16 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				A098BED02C35EF8D00D4AC16 /* ButtonViewModifier.swift */,
+				A0C56D4F2C36044800642904 /* RotateViewModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		A098BED22C35F08700D4AC16 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A098BED32C35F09800D4AC16 /* View+Ext.swift */,
+				A0C56D512C3604DD00642904 /* AnyTransition+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A098BED72C35F3E200D4AC16 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				A098BED82C35F40000D4AC16 /* PressableButtonStyle.swift */,
+				A0C56D592C361E7800642904 /* Triangle.swift */,
+				A0C56D5B2C36218D00642904 /* Diamond.swift */,
+				A0C56D5D2C36232A00642904 /* Trapezoid.swift */,
+				A0C56D612C36280400642904 /* Arcs.swift */,
+				A0C56D632C362B2B00642904 /* QuadCurves.swift */,
+				A0C56D672C36325A00642904 /* RectangleWithSingleCornerAnimation.swift */,
+				A0C56D692C36350A00642904 /* PacManAnimated.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		A0C56D6D2C36382A00642904 /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				A0C56D6B2C36380D00642904 /* GenericsBootcamp.swift */,
+				A0C56D6E2C36385600642904 /* GenericsViewModel.swift */,
+				A0C56D702C363A7800642904 /* GenericModel.swift */,
+			);
+			path = Generics;
+			sourceTree = "<group>";
+		};
+		A0C56D722C36420600642904 /* ViewBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				A0C56D732C36428100642904 /* ViewBuilderBootcamp.swift */,
+				A0C56D752C36438300642904 /* HeaderViewRegular.swift */,
+				A0C56D772C36465700642904 /* HeaderViewGeneric.swift */,
+			);
+			path = ViewBuilder;
+			sourceTree = "<group>";
+		};
+		A0C56D7B2C36537C00642904 /* PreferenceKey */ = {
+			isa = PBXGroup;
+			children = (
+				A0C56D792C364D2400642904 /* PreferenceKeyBootcamp.swift */,
+				A0C56D7C2C3653FC00642904 /* GeoPreferenceKeyBootcamp.swift */,
+				A0C56D7E2C3707D100642904 /* ScrollViewOffsetPrefKeyBootcamp.swift */,
+			);
+			path = PreferenceKey;
+			sourceTree = "<group>";
+		};
+		A0C56D802C37127400642904 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A0C56D812C37130300642904 /* AppTabBarView.swift */,
+				A0C56D832C3716EC00642904 /* CustomTabBarView.swift */,
+				A0C56D872C371E5F00642904 /* CustomTabBarViewModel.swift */,
+				A0C56D852C3718FA00642904 /* TabBarItem.swift */,
+			);
+			path = CustomTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +300,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A098BED62C35F30700D4AC16 /* ButtonStyleBootcamp.swift in Sources */,
+				A0C56D742C36428100642904 /* ViewBuilderBootcamp.swift in Sources */,
+				A0C56D762C36438300642904 /* HeaderViewRegular.swift in Sources */,
+				A0C56D7D2C3653FC00642904 /* GeoPreferenceKeyBootcamp.swift in Sources */,
+				A098BECE2C35E95B00D4AC16 /* ViewModifierBootcamp.swift in Sources */,
+				A0C56D6C2C36380D00642904 /* GenericsBootcamp.swift in Sources */,
+				A098BED92C35F40000D4AC16 /* PressableButtonStyle.swift in Sources */,
+				A0C56D5C2C36218D00642904 /* Diamond.swift in Sources */,
+				A0C56D862C3718FA00642904 /* TabBarItem.swift in Sources */,
+				A0C56D502C36044800642904 /* RotateViewModifier.swift in Sources */,
+				A098BED12C35EF8D00D4AC16 /* ButtonViewModifier.swift in Sources */,
+				A0C56D5A2C361E7800642904 /* Triangle.swift in Sources */,
+				A0C56D542C3608A100642904 /* MatchedGeoEffectBootcamp.swift in Sources */,
+				A098BED42C35F09800D4AC16 /* View+Ext.swift in Sources */,
 				A098BEC12C35E91300D4AC16 /* ContentView.swift in Sources */,
+				A0C56D662C36308500642904 /* AnimateableDataBootcamp.swift in Sources */,
+				A0C56D4E2C3602BF00642904 /* AnyTransitionBootcamp.swift in Sources */,
 				A098BEBF2C35E91300D4AC16 /* AdvanceSwiftApp.swift in Sources */,
+				A0C56D6F2C36385600642904 /* GenericsViewModel.swift in Sources */,
+				A0C56D5E2C36232A00642904 /* Trapezoid.swift in Sources */,
+				A0C56D582C360E7B00642904 /* CustomShapesBootcamp.swift in Sources */,
+				A0C56D712C363A7800642904 /* GenericModel.swift in Sources */,
+				A0C56D842C3716EC00642904 /* CustomTabBarView.swift in Sources */,
+				A0C56D602C3627DE00642904 /* CustomCurvesBootcamp.swift in Sources */,
+				A0C56D882C371E5F00642904 /* CustomTabBarViewModel.swift in Sources */,
+				A0C56D822C37130300642904 /* AppTabBarView.swift in Sources */,
+				A0C56D6A2C36350A00642904 /* PacManAnimated.swift in Sources */,
+				A0C56D522C3604DD00642904 /* AnyTransition+Ext.swift in Sources */,
+				A0C56D642C362B2B00642904 /* QuadCurves.swift in Sources */,
+				A0C56D622C36280400642904 /* Arcs.swift in Sources */,
+				A0C56D7A2C364D2400642904 /* PreferenceKeyBootcamp.swift in Sources */,
+				A0C56D7F2C3707D100642904 /* ScrollViewOffsetPrefKeyBootcamp.swift in Sources */,
+				A0C56D562C360B0300642904 /* MatchedGeoEffect.swift in Sources */,
+				A0C56D682C36325A00642904 /* RectangleWithSingleCornerAnimation.swift in Sources */,
+				A0C56D782C36465700642904 /* HeaderViewGeneric.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
