@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-enum Tab: String, CaseIterable {
+enum TabBarItem: String, CaseIterable {
     case home, favorites, profile
     
     var title: String {
@@ -25,29 +25,21 @@ enum Tab: String, CaseIterable {
         case .profile: return "person"
         }
     }
+    
+    var color: Color {
+        switch self {
+        case .home: return .red
+        case .favorites: return .blue
+        case .profile: return .green
+        }
+    }
 }
 
-struct TabBarItem: Hashable {
-    let iconName: String
-    let title: String
-    let color: Color
-}
+let defaultTabs: [TabBarItem] = [.home, .favorites, .profile]
 
-// dummy data
-let tabs = [
-    TabBarItem(
-        iconName: Tab.home.iconName,
-        title: Tab.home.title,
-        color: .red
-    ),
-    TabBarItem(
-        iconName: Tab.favorites.iconName,
-        title: Tab.favorites.title,
-        color: .blue
-    ),
-    TabBarItem(
-        iconName: Tab.profile.iconName,
-        title: Tab.profile.title,
-        color: .green
-    )
-]
+//struct TabBarItem: Hashable {
+//    let iconName: String
+//    let title: String
+//    let color: Color
+//}
+

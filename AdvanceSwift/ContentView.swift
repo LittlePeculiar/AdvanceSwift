@@ -8,15 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var selected = tabs[0]
     
     var body: some View {
-        VStack {
-            Spacer()
-            CustomTabBarView(
-                viewModel: CustomTabBarViewModel(tabs: tabs),
-                selection: $selected)
-        }
+        AppTabBarView()
     }
 }
 

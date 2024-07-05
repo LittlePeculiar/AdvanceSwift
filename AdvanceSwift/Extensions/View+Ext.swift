@@ -8,6 +8,11 @@
 import SwiftUI
 
 extension View {
+    
+    func tabBarItem(tab: TabBarItem, selection: Binding<TabBarItem>) -> some View {
+        modifier(TabBarItemViewModifier(tab: tab, selection: selection))
+    }
+    
     func onScrollViewOffsetChanged(action: @escaping (_ offset: CGFloat) -> Void) -> some View {
         self
             .background(
