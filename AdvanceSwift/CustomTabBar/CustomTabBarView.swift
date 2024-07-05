@@ -100,7 +100,6 @@ extension CustomTabBarView {
                 }
             }
         )
-        .cornerRadius(10)
     }
     
     private var tabbar2: some View {

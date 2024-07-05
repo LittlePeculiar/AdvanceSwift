@@ -26,6 +26,7 @@ struct CustomTabBarContainerView<Content: View>: View {
         ZStack(alignment: .bottom) {
             content
                 .ignoresSafeArea()
+            
             CustomTabBarView(tabs: tabs, selection: $selection, localSelection: selection)
         }
         .onPreferenceChange(TabBarItemPrefKey.self) { tabs in
