@@ -14,15 +14,21 @@ struct CustomTabBarView: View {
     let tabs: [TabBarItem]
     @Binding var selection: TabBarItem
     @Namespace private var namespace
+    
+    // removes the screen animation
     @State var localSelection: TabBarItem
     
     var body: some View {
         tabbar2
             .onChange(of: selection) { newValue in
                 withAnimation(.easeInOut) {
-                    self.localSelection = selection
+                    self.localSelection = newValue
                 }
             }
+    }
+    
+    private func switchTo(tab: TabBarItem) {
+        self.selection = tab
     }
 }
 
@@ -55,10 +61,6 @@ extension CustomTabBarView {
         .frame(maxWidth: .infinity)
         .background(localSelection == tab ? tab.color.opacity(0.2) : Color.clear)
         .cornerRadius(10)
-    }
-    
-    private func switchTo(tab: TabBarItem) {
-        self.selection = tab
     }
     
     private var tabbar1: some View {

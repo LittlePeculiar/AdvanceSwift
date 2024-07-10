@@ -43,4 +43,33 @@ extension View {
     func updateRectangleGeoSize(_ size: CGSize) -> some View {
         preference(key: RectangleGeoSizePrefKey.self, value: size)
     }
+    
+    
+}
+
+// MARK: Nav bar
+
+extension View {
+    func customNavTitle(_ title: String) -> some View {
+        preference(key: NavBarTitlePrefKey.self, value: title)
+    }
+    
+    func customNavSubtitle(_ title: String?) -> some View {
+        preference(key: NavBarSubtitlePrefKey.self, value: title)
+    }
+    
+    func customNavBarBackButtonShow(_ show: Bool) -> some View {
+        preference(key: NavBarBackButtonShowPrefKey.self, value: show)
+    }
+    
+    func customNavBarItems(
+        title: String = "",
+        subTitle: String? = nil,
+        show: Bool = true
+    ) -> some View {
+        self
+            .customNavTitle(title)
+            .customNavSubtitle(subTitle)
+            .customNavBarBackButtonShow(show)
+    }
 }

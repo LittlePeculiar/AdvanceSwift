@@ -46,6 +46,14 @@
 		A0CC6E592C37585300123811 /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC6E582C37585300123811 /* CustomTabBarContainerView.swift */; };
 		A0CC6E5B2C3760E200123811 /* TabBarItemPrefKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC6E5A2C3760E200123811 /* TabBarItemPrefKey.swift */; };
 		A0CC6E5D2C37613600123811 /* TabBarItemViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC6E5C2C37613600123811 /* TabBarItemViewModifier.swift */; };
+		A0CC6E602C3870B400123811 /* AppNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC6E5F2C3870B400123811 /* AppNavBarView.swift */; };
+		A0CC6E622C38C39400123811 /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC6E612C38C39400123811 /* CustomNavBarView.swift */; };
+		A0CC6E642C38CB6500123811 /* CustomNavBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC6E632C38CB6500123811 /* CustomNavBarContainerView.swift */; };
+		A0CC6E662C38CD4C00123811 /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC6E652C38CD4C00123811 /* CustomNavView.swift */; };
+		A0CC6E682C3DF75700123811 /* NavBarConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC6E672C3DF75700123811 /* NavBarConfiguration.swift */; };
+		A0CC6E6A2C3DFEE800123811 /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC6E692C3DFEE800123811 /* CustomNavLink.swift */; };
+		A0CC6E6C2C3E227700123811 /* NavBarPrefKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC6E6B2C3E227700123811 /* NavBarPrefKey.swift */; };
+		A0CC6E6E2C3E2F6F00123811 /* NavigationController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC6E6D2C3E2F6F00123811 /* NavigationController+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +97,14 @@
 		A0CC6E582C37585300123811 /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
 		A0CC6E5A2C3760E200123811 /* TabBarItemPrefKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemPrefKey.swift; sourceTree = "<group>"; };
 		A0CC6E5C2C37613600123811 /* TabBarItemViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemViewModifier.swift; sourceTree = "<group>"; };
+		A0CC6E5F2C3870B400123811 /* AppNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavBarView.swift; sourceTree = "<group>"; };
+		A0CC6E612C38C39400123811 /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
+		A0CC6E632C38CB6500123811 /* CustomNavBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainerView.swift; sourceTree = "<group>"; };
+		A0CC6E652C38CD4C00123811 /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
+		A0CC6E672C3DF75700123811 /* NavBarConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarConfiguration.swift; sourceTree = "<group>"; };
+		A0CC6E692C3DFEE800123811 /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
+		A0CC6E6B2C3E227700123811 /* NavBarPrefKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarPrefKey.swift; sourceTree = "<group>"; };
+		A0CC6E6D2C3E2F6F00123811 /* NavigationController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationController+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +140,7 @@
 				A098BEC02C35E91300D4AC16 /* ContentView.swift */,
 				A098BEBE2C35E91300D4AC16 /* AdvanceSwiftApp.swift */,
 				A0C56D802C37127400642904 /* CustomTabBar */,
+				A0CC6E5E2C38704800123811 /* CustomNavBar */,
 				A0C56D722C36420600642904 /* ViewBuilder */,
 				A0C56D6D2C36382A00642904 /* Generics */,
 				A0C56D7B2C36537C00642904 /* PreferenceKey */,
@@ -175,6 +192,7 @@
 			children = (
 				A098BED32C35F09800D4AC16 /* View+Ext.swift */,
 				A0C56D512C3604DD00642904 /* AnyTransition+Ext.swift */,
+				A0CC6E6D2C3E2F6F00123811 /* NavigationController+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -234,6 +252,20 @@
 				A0CC6E5A2C3760E200123811 /* TabBarItemPrefKey.swift */,
 			);
 			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		A0CC6E5E2C38704800123811 /* CustomNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				A0CC6E5F2C3870B400123811 /* AppNavBarView.swift */,
+				A0CC6E652C38CD4C00123811 /* CustomNavView.swift */,
+				A0CC6E612C38C39400123811 /* CustomNavBarView.swift */,
+				A0CC6E692C3DFEE800123811 /* CustomNavLink.swift */,
+				A0CC6E632C38CB6500123811 /* CustomNavBarContainerView.swift */,
+				A0CC6E672C3DF75700123811 /* NavBarConfiguration.swift */,
+				A0CC6E6B2C3E227700123811 /* NavBarPrefKey.swift */,
+			);
+			path = CustomNavBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0CC6E602C3870B400123811 /* AppNavBarView.swift in Sources */,
 				A098BED62C35F30700D4AC16 /* ButtonStyleBootcamp.swift in Sources */,
 				A0C56D742C36428100642904 /* ViewBuilderBootcamp.swift in Sources */,
 				A0C56D762C36438300642904 /* HeaderViewRegular.swift in Sources */,
@@ -315,20 +348,26 @@
 				A098BED92C35F40000D4AC16 /* PressableButtonStyle.swift in Sources */,
 				A0C56D5C2C36218D00642904 /* Diamond.swift in Sources */,
 				A0C56D862C3718FA00642904 /* TabBarItem.swift in Sources */,
+				A0CC6E6E2C3E2F6F00123811 /* NavigationController+Ext.swift in Sources */,
 				A0C56D502C36044800642904 /* RotateViewModifier.swift in Sources */,
 				A098BED12C35EF8D00D4AC16 /* ButtonViewModifier.swift in Sources */,
 				A0C56D5A2C361E7800642904 /* Triangle.swift in Sources */,
 				A0C56D542C3608A100642904 /* MatchedGeoEffectBootcamp.swift in Sources */,
 				A098BED42C35F09800D4AC16 /* View+Ext.swift in Sources */,
+				A0CC6E6A2C3DFEE800123811 /* CustomNavLink.swift in Sources */,
 				A098BEC12C35E91300D4AC16 /* ContentView.swift in Sources */,
 				A0C56D662C36308500642904 /* AnimateableDataBootcamp.swift in Sources */,
 				A0C56D4E2C3602BF00642904 /* AnyTransitionBootcamp.swift in Sources */,
+				A0CC6E622C38C39400123811 /* CustomNavBarView.swift in Sources */,
 				A098BEBF2C35E91300D4AC16 /* AdvanceSwiftApp.swift in Sources */,
+				A0CC6E682C3DF75700123811 /* NavBarConfiguration.swift in Sources */,
 				A0C56D6F2C36385600642904 /* GenericsViewModel.swift in Sources */,
+				A0CC6E642C38CB6500123811 /* CustomNavBarContainerView.swift in Sources */,
 				A0C56D5E2C36232A00642904 /* Trapezoid.swift in Sources */,
 				A0C56D582C360E7B00642904 /* CustomShapesBootcamp.swift in Sources */,
 				A0C56D712C363A7800642904 /* GenericModel.swift in Sources */,
 				A0C56D842C3716EC00642904 /* CustomTabBarView.swift in Sources */,
+				A0CC6E662C38CD4C00123811 /* CustomNavView.swift in Sources */,
 				A0C56D602C3627DE00642904 /* CustomCurvesBootcamp.swift in Sources */,
 				A0C56D822C37130300642904 /* AppTabBarView.swift in Sources */,
 				A0CC6E5D2C37613600123811 /* TabBarItemViewModifier.swift in Sources */,
@@ -342,6 +381,7 @@
 				A0C56D562C360B0300642904 /* MatchedGeoEffect.swift in Sources */,
 				A0C56D682C36325A00642904 /* RectangleWithSingleCornerAnimation.swift in Sources */,
 				A0C56D782C36465700642904 /* HeaderViewGeneric.swift in Sources */,
+				A0CC6E6C2C3E227700123811 /* NavBarPrefKey.swift in Sources */,
 				A0CC6E5B2C3760E200123811 /* TabBarItemPrefKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
